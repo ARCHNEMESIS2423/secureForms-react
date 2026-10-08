@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+.saira-<uniquifier> {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.luxurious-roman-regular {
+  font-family: "Luxurious Roman", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.saira-button {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.saira-form_header {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 650;
+  font-style: bold;
+  font-variation-settings:
+    "wdth" 100;
+}
+.saira-label {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.saira-text {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}

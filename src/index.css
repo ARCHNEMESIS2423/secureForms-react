@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/*  FORM ELEMENTS 
+=====================================================
+*/
+/* FORM BLOCK ITSELF */
+form{
+  @apply  flex flex-col pb-10 px-10 border border-gray-200 rounded-xl md:ml-5 gap-2;
+  label{
+    @apply flex justify-baseline border-b-1 border-blue-200 focus-within:border-blue-500;
+    span{
+    @apply pt-3;
+    } 
+  }
+  sup{
+      color:red;
+  }
+}
+/* BUTTON */
+button{
+  @apply p-3 rounded-xl text-center;  
+}
+ .danger{
+    @apply bg-red-500;
+  }  
+  .safe{
+    @apply bg-blue-500;
+  } 
+
+/* INPUT */
+input{
+  @apply pt-4 pb-1 outline-none px-2 w-full;
+}
+/* WARNING ERRORS 
+=============================================
+*/
+/* FORM ERROR */
+.warning{
+  @apply text-red-600;
+}
+
+/* OTHER ELEMENTS
+==============================================
+*/
+/* CONTENT LAYOUTS */
+.AppContent{
+  @apply flex flex-col md:flex-row items-center p-3 w-full gap-10 md:items-stretch *:flex-1 *:w-full;
+}
